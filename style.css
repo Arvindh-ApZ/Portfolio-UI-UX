@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/aravindh.png);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(aravindh.png);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -65,7 +65,7 @@ nav img{
         margin-left: -10px;
         color: transparent;
         -webkit-text-stroke: 1px #fff;
-        background: url(images/back.png);
+        background: url(back.png);
         -webkit-background-clip: text;
         background-position: 0 0;
         animation: back 20s linear infinite;
@@ -263,7 +263,7 @@ transform: scale(1.1);
 .cta{
 margin: 100px auto;
 width:80%;
-background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/background.png);
+background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(background.png);
 background-position: center;
 background-size: cover;
 border-radius: 10px;
@@ -332,7 +332,7 @@ background-size: 100%;
 .sub-header{
     height: 50vh;
     width:100%;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/20.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(20.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -454,7 +454,7 @@ ul li::after{
 .sub-header1{
     height: 50vh;
     width:100%;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/20.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(20.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -476,7 +476,7 @@ ul li::after{
 .sub-header2{
     height: 50vh;
     width:100%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/20.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(20.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -613,7 +613,7 @@ transform: scale(1.1);
 .sub-header3{
     height: 50vh;
     width:100%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/20.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(20.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -808,16 +808,3 @@ ul li::after{
     color: #fff;
  }
  
-/* tool */
-:root{
-    --primary-color:#0D0D0D;
-    --secondary-color:#FFFFFF;
-
-    --marquee-width: 80vw;
-    --marquee-height: 20vh;
-    /* --marquee-elements: 12; */ /* defined with JavaScript */
-    --marquee-elements-displayed: 5;
-    --marquee-element-width: calc(var(--marquee-width) / var(--marquee-elements-displayed));
-    --marquee-animation-duration: calc(var(--marquee-elements) * 3s);
-
-}
