@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <meta name=""viewport" content="with=device-width,initial-scale=1.0">
+        <title>fashion photography</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/67da5393d0.js" crossorigin="anonymous"></script>
+           </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+            <a  href="index.html"><img src="images/ARAVINDH PORTFOLIO LOGO FINAL white.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i> 
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+                
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>About</h1>
+        </section>
+
+<!----------about us page--------->
+<section class="about">
+<div class="main">
+    <img src="images/21.jpg">
+    
+    <div class="about-text">
+        <h1>About<span> Me</span></h1>
+        <h5>UI/ UX Designer<span> & Graphic Designer</span></h5>
+        <p>Hi there! I'm Aravindh PR, and I've worked as a graphic designer for 2.5 years. I'm switching to UI/UX design in order to provide user-friendly and captivating digital products. My objective is to integrate user-friendly design concepts with my expertise in visual design. My passion lies in using design to solve problems and enhance user experiences. I appreciate you looking at my portfolio. Enjoy looking through my work and following my transition from graphic design to UI/UX design.</p>
+        <button type="button"><a href="contact.html">Let's Talk</a> </button>
+    </div>
+</div>
+</section>
+
+        <!----------Footer--------->
+
+        <section class="footer">
+            <h4>About </h4>
+            <p>Designing with passion and precision - Aravindh P R, Graphic & UI UX Designer.</p>
+            <div class="icons">
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <p><i class="fa-solid fa-copyright"></i> 2024 Portfolio. Powered by <span> Aravindh P R</span></p>
+        </section>
+  
+<!-----javascript for toggle menu--------->
+
+        <script>
+            var navLinks=document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+        </script>
+    </body>
+</html>
